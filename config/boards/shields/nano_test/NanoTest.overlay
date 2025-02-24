@@ -1,0 +1,12 @@
+/ {
+    chosen {
+        zmk,kscan = &default_kscan;
+    };
+
+    default_kscan: kscan {
+        compatible = "zmk,kscan-gpio-direct";
+        label = "default_kscan";
+
+        input-gpios = <&gpio0 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // Replace `2` with the GPIO pin you're using
+    };
+};

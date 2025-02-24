@@ -1,0 +1,6 @@
+if SHIELD_NANOTEST
+
+config ZMK_KEYBOARD_NAME
+    default "NanoTest"
+
+endif
