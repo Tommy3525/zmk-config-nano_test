@@ -1,2 +1,2 @@
 config SHIELD_NANOTEST
-    def_bool $(shields_list_contains,NanoTest)
+    def_bool $(shields_list_contains, NanoTest)
